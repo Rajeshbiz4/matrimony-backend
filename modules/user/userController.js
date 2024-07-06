@@ -115,6 +115,7 @@ router.get("/list", function (req, res) {
   );
 });
 
+
 // Update one document
 router.put("/update", function (req, res) {
   myLogModule.info("UserController API-UserList(user/update)");
