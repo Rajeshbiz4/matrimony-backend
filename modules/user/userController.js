@@ -4,7 +4,7 @@ var bcrypt = require("bcrypt");
 var router = express.Router();
 var MongoClient = require("mongodb").MongoClient;
 var myLogModule = require("../../utils/logger");
-var url = "mongodb://localhost:27017";
+var url = "mongodb+srv://rajeshpandhare181:tY5SOl2JowgJaSW7@cluster0.adymsmg.mongodb.net/?retryWrites=true&w=majority";
 var mypassModule = require("../../utils/utils");
 var ObjectID = require("mongodb").ObjectID;
 // mongodb://localhost:27017
