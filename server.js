@@ -19,10 +19,10 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to bezkoder application." });
 });
 
-// app.use("/login", auth_Controller);
-// app.use("/user", user_controller);
-// app.use("/branch", branch_Controller);
-// app.use("/images", image_controller);
+app.use("/login", auth_Controller);
+app.use("/user", user_controller);
+app.use("/branch", branch_Controller);
+app.use("/images", image_controller);
 
 app.listen(port, () => {
   console.log("Server listening on port " + port);
